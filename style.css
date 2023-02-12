@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: #FFDDA7;
+}
+
+.header__logo {
+    margin-left: 18.5%;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.header_logo:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+nav {
+    margin-top: 44px;
+    margin-left: 3.4%;
+    margin-right: 1%;
+}
+
+.topnav a {
+    color: #000;
+    text-align: center;
+    padding-right: 39px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.topnav a:hover {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #2D2D2D;
+}
+
+.phone {
+    margin-top: 1.9%;
+}
+
+.phone a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.icon__phone {
+    background: url(icons/ic-baseline-local-phone.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-flex;
+}
+
+.icon__arrow {
+    background: url(icons/arrow.svg) no-repeat;
+    width: 12px;
+    height: 7px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.callphone {
+    text-align: right;
+}
+
+.callback {
+    color: #2D2D2D;
+    font-size: 12px;
+    font-weight: 400;
+    border-bottom: 1px dashed #2D2D2D;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    background: #FFDDA7;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    margin: -26px auto ;
+}
+
+main .main__about {
+    display: flex;
+}
+
+.about__left {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Roboto';
+    line-height: 48px;
+    color: #3E3E3D;
+    position: absolute;
+    padding: 206px 0 260px 360px;
+}
+
+.about__right {
+    margin-left: 391px;
+    padding-left: 360px;
+    padding-top: 4px;
+}
