@@ -92,12 +92,12 @@ nav {
 main {
     display: flex;
     background: #FFDDA7;
+    mix-blend-mode: color;
     width: 100%;
 }
 
 .wrapper {
     width: 100%;
-    margin: -26px auto ;
 }
 
 main .main__about {
@@ -118,4 +118,10 @@ main .main__about {
     margin-left: 391px;
     padding-left: 360px;
     padding-top: 4px;
+
+}
+
+.about__right img {
+    mix-blend-mode: multiply;
+    filter: sepia();
 }
