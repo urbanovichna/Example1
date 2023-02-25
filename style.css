@@ -11,6 +11,8 @@ body {
     font-family: 'Montserrat', 'Roboto', sans-serif;
 }
 
+/* Шапка */
+
 header {
     width: 100%;
     display: flex;
@@ -18,6 +20,8 @@ header {
     font-style: normal;
     background: #FFDDA7;
 }
+
+/* Лого */
 
 .header__logo {
     margin-left: 18.5%;
@@ -49,6 +53,7 @@ nav {
     color: #2D2D2D;
 }
 
+/* блок телефона */
 .phone {
     margin-top: 1.9%;
 }
@@ -89,34 +94,44 @@ nav {
     cursor: pointer;
 }
 
+/* ОХРАНА ТРУДА + изображение */
+
 main {
     display: flex;
-    background: #FFDDA7;
-    mix-blend-mode: color;
+    flex-direction: column;
     width: 100%;
 }
 
+.main__work {
+    background: #FFDDA7;
+    color: #3E3E3D;
+}
+
 .wrapper {
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
 }
 
 main .main__about {
     display: flex;
 }
 
+/* Текст ОХРАНА ТРУДА  */
+
 .about__left {
     text-transform: uppercase;
     text-align: left;
     font-family: 'Roboto';
     line-height: 48px;
-    color: #3E3E3D;
     position: absolute;
-    padding: 206px 0 260px 360px;
+    padding: 206px 0 260px 115px;
 }
+
+/* Картинка "Рабочие(workers.png)" */
 
 .about__right {
     margin-left: 391px;
-    padding-left: 360px;
+    padding-left: 120px;
     padding-top: 4px;
 
 }
@@ -124,4 +139,35 @@ main .main__about {
 .about__right img {
     mix-blend-mode: multiply;
     filter: sepia();
+}
+
+.main__services {
+    text-align: center;
+    padding: 100px 0 16px 0;
+    font-family: 'Roboto';
+    color: #000;
+}
+
+.main__services h1 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.about__services h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.about__services p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.background__main {
+    position: relative;
+}
+
+.pb {
+    position: absolute;
 }
